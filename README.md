@@ -79,7 +79,7 @@ Integrating Python and SQL enables you to automate database-related tasks. You c
 
 ### Data Analysis and Visualization
 
-Python's extensive data analysis and visualization libraries can be seamlessly integrated with SQL databases. This integration allows you to retrieve data from a SQL database, analyze it, perform statistical calculations, and visualize the results using Python's plotting capabilities. Some popular libraries for data analysis and visualization in Python include:
+Python's extensive data analysis and visualization libraries can be seamlessly integrated with SQL databases. This integration allows you to retrieve data from a SQL database, analyze it, perform statistical calculations, and visualize the results using Python's plotting capabilities. Here are some popular libraries for data analysis and visualization in Python:
 
 - **Pandas**: Pandas provides powerful data structures and data analysis tools. You can retrieve data from SQL databases into Pandas DataFrames and perform various data manipulations, aggregations, filtering, and calculations.
 
@@ -87,4 +87,15 @@ Python's extensive data analysis and visualization libraries can be seamlessly i
 
 - **Matplotlib**: Matplotlib is a widely-used plotting library in Python. It allows you to create various types of visualizations, including line plots, bar charts, histograms, scatter plots, and more. You can plot data retrieved from a SQL database to gain insights and communicate your findings effectively.
 
-These are just a few examples of the possibilities when integrating Python and SQL. By combining the strengths of both technologies, you can create powerful and efficient solutions for working with databases and analyzing data.
+- **Seaborn**: Seaborn is a statistical data visualization library that is built on top of Matplotlib. It provides a high-level interface for creating informative and attractive statistical graphics. With Seaborn, you can easily create advanced visualizations such as distribution plots, regression plots, categorical plots, and more.
+
+- **Bokeh**: Bokeh is a powerful interactive visualization library that targets modern web browsers. It provides elegant and interactive visualizations for displaying large and complex datasets. With Bokeh, you can create interactive plots, dashboards, and applications that allow users to explore and interact with the data.
+
+- **TensorFlow**: TensorFlow is a powerful library for machine learning and deep learning. It includes tools for building and training machine learning models, including neural networks. You can integrate TensorFlow with SQL databases to retrieve training data, preprocess it, and use it for model training and evaluation.
+
+- **scikit-learn**: scikit-learn is a popular machine learning library in Python. It provides a wide range of machine learning algorithms and tools for tasks such as classification, regression, clustering, and dimensionality reduction. By combining scikit-learn with SQL databases, you can leverage the data stored in the database for training and evaluating machine learning models.
+
+- **PyTorch**: PyTorch is another popular library for deep learning. It provides a flexible and efficient framework for building neural networks and performing deep learning tasks. You can integrate PyTorch with SQL databases to fetch data for model training, preprocess it, and use it to train and evaluate deep learning models.
+
+These libraries offer a wide range of capabilities for data analysis, statistical modeling, and machine learning. By integrating them with SQL databases, you can leverage the data stored in the database to gain insights, make data-driven decisions and build advanced machine learning models.
+
