@@ -70,8 +70,10 @@ psql -U postgres
 CREATE USER your_user WITH PASSWORD 'your_password';
 
 -- Create a new database (replace 'your_database' and 'your_user' with your desired values):
-CREATE DATABASE your_database OWNER your_user;
+CREATE DATABASE your_database;
 ```
+
+ <!-- OWNER your_user -->
 
 #### Connect to a Database
 
@@ -100,8 +102,11 @@ CREATE TABLE users (
 INSERT INTO users (name, age) VALUES ('John Doe', 30), ('Jane Smith', 25);
 ```
 
-3. It is possible to use a `.sql` file with SQL commands inside it like `database.sql`. To do that in Windows, you have to use the `\i <file_name>`
-   command in the command line tool. The `file_name` should be tha file path in single quotes and forward slashes such as `\i 'C:/path/sql_commands_file.sql'`
+3. It is possible to use a `.sql` file with SQL commands inside it like `database.sql`. To do that in Windows, you have to use the `\i <file_name>` command in the command line tool. The `file_name` should be tha file path in single quotes and forward slashes such as `\i 'C:/path/sql_commands_file.sql'`
+
+The fule `sw_dataset.sql` is available [here](https://github.com/alexisrolland/star-wars-data/blob/master/database.sql). You can add it to your PostgrSQL server with that previous command.
+
+<!-- C:/Users/camil/Documents/github/0python-sql/sw_dataset.sql -->
 
 <!-- #### Exit psql
 
