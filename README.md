@@ -2,7 +2,7 @@
 
 This tutorial provides step-by-step instructions on how to connect Python and SQL (with a PostgreSQL database), allowing you to interact with databases using Python. By the end of this tutorial, you'll be able to establish connections, execute SQL queries, and retrieve data from a SQL database using Python.
 
-## Table of Contents
+## Contents
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -27,13 +27,13 @@ Before you begin, ensure you have the following prerequisites in place:
 
 2. Change to the tutorial directory: `cd your-repo`
 
-4. Create a new virtual environment for the notebook with this [tutorial](https://github.com/camilasbraz/virtual-envs-ands-notebooks) and activate it
+3. Create a new virtual environment for the notebook with this [tutorial](https://github.com/camilasbraz/virtual-envs-ands-notebooks) and activate it
 
-5. Install the required dependencies using pip: `pip install -r requirements.txt`
+4. Install the required dependencies using pip: `pip install -r requirements.txt`
 
 ### PostgreSQL
 
-PostgreSQL is an open-source relational database management system. This guide will help you get started with PostgreSQL and use it for your projects.
+PostgreSQL is an open-source relational database management system.
 
 #### Installation
 
@@ -80,6 +80,7 @@ CREATE DATABASE your_database OWNER your_user;
 ```terminal
 psql -U your_user -d your_database
 ```
+
 <!-- psql -U camilabraz -d starwars; -->
 
 #### Execute SQL Commands
@@ -98,15 +99,16 @@ CREATE TABLE users (
 -- Insert data into the table:
 INSERT INTO users (name, age) VALUES ('John Doe', 30), ('Jane Smith', 25);
 ```
+
 3. It is possible to use a `.sql` file with SQL commands inside it like `database.sql`. To do that in Windows, you have to use the `\i <file_name>`
-command in the command line tool. The `file_name` should be tha file path in single quotes and forward slashes such as `\i 'C:/path/createdatabase.sql'`
+   command in the command line tool. The `file_name` should be tha file path in single quotes and forward slashes such as `\i 'C:/path/sql_commands_file.sql'`
 
 <!-- #### Exit psql
 
 1. To exit the psql command-line tool, type:
 
 ```terminal
-\q 
+\q
 ```-->
 
 ## Usage
@@ -121,7 +123,7 @@ DB_NAME = 'your-database-name'
 DB_USER = 'your-database-username'
 DB_PASSWORD = 'your-database-password'
 ```
- 
+
 2. Run the `python-sql.ipynb` notebook
 
 ## Python and SQL Integration
